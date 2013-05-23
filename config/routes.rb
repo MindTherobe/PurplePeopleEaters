@@ -59,4 +59,5 @@ PurplePeopleEater::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   match '/jjt' => 'pages#jjt'
+  match '/mf' => 'pages#mf'
 end
