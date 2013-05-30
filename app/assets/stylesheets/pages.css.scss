@@ -4,9 +4,52 @@ body {
 
 
 .jtHome {
-	background-color: #99CCFF;
+	background-color: #FFFFCC;
 }
 
 .mfHome {
 	background-color: #99CCFF;
+}
+
+#header {
+	z-index: 1;
+	width: 100%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #660099;
+	margin-bottom: 0px;
+	border-radius: 10px;
+}
+
+#logo{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+
+}
+
+.left_menu{
+	float: left;
+	width: 10%;
+	height: 400px;
+	margin-top: 0px;
+	margin-right: 10px;
+	position: relative;
+	background-color: #9933CC;
+	border-radius: 10px;
+}
+
+.btnHome {
+	height: 50px;
+	width: 100px;
+	background-color: #660099;
+	border-radius: 100px;
+	margin-left: 10px;
+	color: white;
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-align: center;
 }
